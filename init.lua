@@ -2,6 +2,7 @@
 
 -- leader key
 vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 -- load some basic neovim settings from ./lua/*.lua
 require("style")

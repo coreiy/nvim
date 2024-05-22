@@ -11,18 +11,31 @@ It is a work in progress and will be updated as I learn more about neovim.
 
 ## installation
 
-- clone this repo to you neovim config directory
+- install neovim
  - macOS
     ```bash
-    git clone url ~/.config/nvim
+    brew install neovim
     ```
  - linux
     ```bash
-    git clone url ~/.config/nvim
+    sudo apt-get install neovim
+    ```
+ - windows
+    ```powershell
+    choco install neovim
+    ```
+- clone this repo to you neovim config directory
+ - macOS
+    ```bash
+    git clone https://github.com/coreiy/nvim.git ~/.config/nvim
+    ```
+ - linux
+    ```bash
+    git clone https://github.com/coreiy/nvim.git ~/.config/nvim
     ```
  - windows (powershell)
     ```powershell
-    git clone url $HOME\AppData\Local\nvim
+    git clone https://github.com/coreiy/nvim.git $HOME\AppData\Local\nvim
     ```
 - open neovim
  - nvim .

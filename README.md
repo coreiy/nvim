@@ -12,11 +12,11 @@ It is a work in progress and will be updated as I learn more about neovim.
 ## installation
 
 - install neovim
- - macOS
-    ```bash
+  - macOS
+    - ```bash
     brew install neovim
     ```
- - linux
+   - linux
     ```bash
     sudo apt-get install neovim
     ```

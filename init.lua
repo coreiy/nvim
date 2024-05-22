@@ -3,11 +3,10 @@
 -- leader key
 vim.g.mapleader = " "
 
--- load some basic style settings from ./style.lua
+-- load some basic neovim settings from ./lua/*.lua
 require("style")
--- load options from ./options.lua
 require("options")
--- load keymaps from ./keymaps.lua
 require("keymaps")
--- load lazy.nvim setup from ./my_lazy_setup.lua
+
+-- load lazy.nvim setup from ./lua/my_lazy_setup.lua
 require("my_lazy_setup")

@@ -22,3 +22,4 @@ vim.opt.inccommand = "split"
 vim.opt.wrap = true
 vim.opt.mouse = "a"
 vim.opt.clipboard = "unnamedplus"
+vim.opt.scrolloff = 8

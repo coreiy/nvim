@@ -18,4 +18,5 @@ return {
 		opts = {},
 		version = "^1.0.0",
 	},
+	{ "MunifTanjim/nui.nvim" },
 }

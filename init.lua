@@ -1,6 +1,7 @@
 -- This is the main entry point for the Neovim configuration.
 
 -- leader key
+-- the leader key is used to create custom keybindings
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 

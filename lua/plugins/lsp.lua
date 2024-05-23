@@ -68,11 +68,9 @@ return {
 			rust_analyzer = {},
 			pylint = {},
 			lua_ls = {},
-			debugpy = {
-				capabilities = {
-					runInTerminal = true,
-				},
-			},
+			debugpy = {},
+			markdownlint = {},
+			flake8 = {},
 		}
 
 		require("mason").setup()
